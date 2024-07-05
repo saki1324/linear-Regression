@@ -27,7 +27,7 @@ with col1:
 
 
 st.text('')
-if st.button("Seles Prediction "):
+if st.button("Sales Prediction "):
     result = clf.predict(np.array([[tv,rd,newspaper]]))
     st.text(result[0])
 
